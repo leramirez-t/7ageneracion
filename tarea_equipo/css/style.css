@@ -1,0 +1,129 @@
+.opciones{
+
+    list-style-type: none;
+    text-align: right;
+    margin: auto;
+    padding: auto;
+} 
+
+.opciones li{
+
+
+    display: inline-block;
+    font-size: 20px;
+    padding: auto;
+}
+
+#servicios{
+
+    text-align: center;
+    height: 30%;
+}
+
+.sinformativo {
+
+    background-color:lightgray;
+    width: 100vw;
+    height: 25vw;
+    
+}
+
+
+.aservicios{
+
+    display: flex;
+    justify-content: space-evenly;
+    height: 38%;
+}
+
+.sdesign {
+
+    background-color: white;
+    width: 20vw;
+    display: inline-block;
+    
+}
+
+.sdevelopment {
+
+    background-color: white;
+    width: 20vw;
+    display: inline-block;
+
+}
+
+.smarketing {
+
+    background-color: white;
+    width: 20vw;
+    display: inline-block;
+
+}
+
+article{
+
+    margin: 2% auto;
+    width: 95%;
+    height: 25%;
+
+}
+
+
+
+.finformativo{
+    text-align: center;
+    
+    
+}
+
+footer{
+
+    display: inline-block;
+    width: 100%;
+    
+
+}
+
+.pdesign{
+
+    padding: 20px;
+    
+}
+
+
+@media screen and (max-width: 1200px){
+
+    .sdesign{
+        width: 100%;
+        
+    }
+
+    /*.sdesign{
+        width: 100%;
+        
+    }
+
+    .sdesign{
+        width: 100%;
+        
+    }*/
+}
+
+.sservicios{
+
+    background-color:lightgray;
+    width: 100vw;
+    height: 25vw;
+    
+
+}
+
+.titulo{
+
+    text-align: center;
+}
+
+.subtitulo{
+
+    text-align: center;
+}
