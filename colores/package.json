@@ -1,0 +1,25 @@
+{
+  "name": "colores",
+  "version": "0.0.1",
+  "description": "Colors in node",
+  "main": "index.js",
+  "scripts": {
+    "code-test": "standard",
+    "say-hi": "echo 'Hola a todos'",
+    "say-hi-and-goodbye": "echo Hola && echo Adios"
+  },
+  "keywords": [
+    "test",
+    "colors",
+    "node"
+  ],
+  "author": "leramirez-t",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.3"
+  }
+}
