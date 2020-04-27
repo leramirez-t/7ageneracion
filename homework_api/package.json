@@ -1,0 +1,24 @@
+{
+  "name": "homework_api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "dev":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "leramirez-t"
+  },
+  "keywords": [],
+  "author": "leramirez-t",
+  "license": "ISC"
+}

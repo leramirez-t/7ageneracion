@@ -100,11 +100,11 @@ function pintar(muroAPintar, callback) {
     
     async function createMuro() {
         const muroConstruido = await construirPromificada(muro1)
-        console.log('Muro se construyo')
+        console.log('Muro se construyo' , muroConstruido)
         const muroAplanado = await aplanarPromificada(muroConstruido)
-        console.log('Muro Aplando')
+        console.log('Muro Aplando' , muroAplanado)
         const muroPintado = await pintarPromificada(muroAplanado)
-        console.log('Muro pintado: ')
+        console.log('Muro pintado: ' , muroPintado)
         return muroPintado
     }
     createMuro()
