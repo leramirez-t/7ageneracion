@@ -1,4 +1,4 @@
-const mongoose = require("mongoose")
+const mongoose = require('mongoose')
 
 const mediumSchema = new mongoose.Schema({
   title: {
@@ -27,17 +27,16 @@ const mediumSchema = new mongoose.Schema({
     maxlength: 100,
     required: true
   },
-  estimateReadTime: {
+  estimatedReadTime: {
     type: String,
     minlength: 10,
     maxlength: 11,
-    enum: ['min', 'read'],
     required: true
   },
   date: {
-    type: Date,
+    type: String,
     required: true
   }
 })
 
-module.exports = mongoose.model("Medium", mediumSchema)
+module.exports = mongoose.model('posts', mediumSchema)

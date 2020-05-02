@@ -19,10 +19,8 @@ function deleteById (id, newUser_Data) {
 }
 
 module.exports = {
-
   create,
   getAll,
   updateById,
   deleteById
-
 }
