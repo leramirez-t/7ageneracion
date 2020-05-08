@@ -1,0 +1,5 @@
+applications:
+- name: holaNube
+  memory: 16M
+  stack: cflinuxfs3
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git

@@ -13,9 +13,9 @@ app.use('/auth', authRouter)
 app.get('/medium', async (request, response) => {
 const allusermedium = await mediumRouter.getAll()
     response.json({
-        message: 'All koders',
+        message: 'All usersmedium',
         data: {
-            medium: allmedium 
+            medium: allusermedium
         }
     })
 })
